@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Arctic & Antarctic Specialists",
-  description: "With over two decades of experience, Poseidon brings travelers deep into the high latitudes—from the North Pole to the Antarctic Peninsula.",
+  title: "Polar Icebreaker Adventures",
+  description: "Explore the North Pole aboard nuclear-powered icebreakers for a once-in-a-lifetime expedition.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Expert Expedition Team",
-  description: "Guides, naturalists, historians, and scientists enhance every landing and lecture with deep knowledge and passion.",
+  title: "Arctic & Antarctic Experts",
+  description: "Expeditions to the world’s most remote polar regions with seasoned naturalists and guides.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Intimate, Purpose-Built Ships",
-  description: "Travel aboard vessels like the M/V Sea Spirit or 50 Years of Victory (nuclear icebreaker), designed for safety, comfort, and capability in extreme conditions.",
+  title: "Citizen Science Participation",
+  description: "Guests contribute to climate and wildlife research alongside professional scientists.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Authentic Exploration",
-  description: "Enjoy true expedition cruising with flexible itineraries, zodiac landings, and immersive encounters with wildlife and landscapes.",
+  title: "Luxury Meets Adventure",
+  description: "Combines high-comfort accommodations with rugged off-ship excursions.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Poseidon Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
